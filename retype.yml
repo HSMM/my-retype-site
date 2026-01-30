@@ -1,18 +1,30 @@
 input: docs
 output: .retype
-url: https://hsmm.github.io/my-retype-site/
-basePath: /my-retype-site
+url: https://wiki.callbee.io
 
-start:
-  # pro: true
+start.pro: true
+
+gravatar:
+    default: monsterid
+    enabled: true
 
 branding:
-  title: Project Name
-  label: Docs
+  title: CallBee
+  label: wiki
 
 links:
-  - text: Getting Started
-    link: https://retype.com/guides/getting-started/
+  - text: Личный кабинет
+    link: https://my.callbee.io
+    target: blank
+
+meta:
+  title: " | wiki.callbee.io - Сallbee - интеграции для IP-ATC FreePBX и Yeastar"
+
+search:
+  placeholder: Поиск
+  noResultsFoundMsg: Ничего не нашли по вашему запросу
+
+
 
 footer:
-  copyright: "&copy; Copyright {{ year }}. All rights reserved."
+  copyright: "&copy; {{ year }} [CallBee](https://callbee.io/) . Все права защищены."

@@ -1,11 +1,9 @@
-input: .
+input: docs
 output: .retype
-
-url: https://HSMM.github.io/my-retype-site/
+url: https://hsmm.github.io/my-retype-site/
 basePath: /my-retype-site
 
 start:
-  # Uncomment the next line to try Retype Pro features
   # pro: true
 
 branding:
